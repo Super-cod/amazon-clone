@@ -1,0 +1,39 @@
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    text-align: center;
+    gap: 15px;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.menu div {
+    padding-top: 10px;
+    cursor: pointer; /* Add pointer cursor to all divs */
+}
+
+/* Individual styles for each menu item */
+.new-launches {
+    height: 28px;
+    margin-left: 100px;
+}
+
+.all,
+.fresh,
+.gift-ideas,
+.electronics,
+.gift-cards,
+.mobiles,
+.amazon-minitv,
+.sell,
+.browsing-history,
+.swayams-amazon,
+.amazon-pay {
+    height: 25px;
+}
+
+/* Hover effect for all divs except new-launches */
+.menu div:not(.new-launches):hover {
+    border: 2px solid white;
+    border-radius: 3px;
+}
