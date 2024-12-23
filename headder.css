@@ -50,7 +50,9 @@
     margin-top: 3px;
     margin-left: 5px;
 }
-
+.add{
+    height: 20px;
+}
 .search {
     min-width: 350px;
     max-width: 850px;
